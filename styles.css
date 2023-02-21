@@ -1,9 +1,9 @@
 html {
     font-size: 100%;
-    background-color: #ffffff;
+    background-color: #000000;
     color: rgb(255, 255, 255);
 }
-header { background-color: #36311F  ;
-    border: 1px solid black;
+header { background-color: #36311F;
+        border: 1px solid black;
 
 }
