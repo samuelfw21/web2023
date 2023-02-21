@@ -8,8 +8,9 @@ header { background-color: #36311F;
         color: black;
 
 }
-nav {color: black;
+nav {color: rgb(255, 253, 253);
 
 }
+body {color: black;}
 h2,
-p {color: black;}
+p {color: rgb(255, 255, 255);}
