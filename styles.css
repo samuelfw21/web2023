@@ -12,7 +12,7 @@ header { background-color: #E2c8A9;
         top: 0;
         left: 0;
 }
-.Main-nav{
+header nav ul{
     position: absolute;
      bottom: 0;
      right: 0; 
