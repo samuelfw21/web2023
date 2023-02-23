@@ -1,7 +1,8 @@
 html {
     font-size: 100%;
     background-color: #fff;
-    color: #000;;
+    color: #000;
+    width: 100%;
 }
 header { background-color: #E2c8A9;
         border: 1px solid black;
