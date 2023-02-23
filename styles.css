@@ -15,9 +15,14 @@ header { background-color: #E2c8A9;
 
 
 body {font-family:Arial, Helvetica, sans-serif;
+    background-color: #7a644a;
     margin: 10px;
     padding: 20px;
     color: rgb(50, 48, 48);}
 
 p {color: rgb(0, 0, 0);}
 
+footer {
+    background-color: #e2c8a9;
+    border: 1px solid black;
+}
