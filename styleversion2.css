@@ -25,6 +25,10 @@ body {
     display:block;
     max-width: 100%;
     height: auto;
+    margin: auto;
+    position:absolute;
+    top:50;
+    transform: translateY(-50%);
   }
   
   /* Style the navigation menu */
