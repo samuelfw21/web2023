@@ -6,7 +6,7 @@ body {
   
   /* Style the header */
   header {
-    background-color: #ff6600;
+    background-color: #E2c8A9;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@ body {
   /* Style the main section */
   .wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 50px;
   }
@@ -58,14 +58,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
   }
   
-  #main_article {
-    margin: 20px;
+  #services {
     text-align: center;
+    margin: 20px;
   }
   
-  #main_fig {
+  #secondary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  
+  #our_mission {
+    text-align: center;
     margin: 20px;
   }
   
