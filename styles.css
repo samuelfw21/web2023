@@ -18,6 +18,10 @@ header nav ul{
      right: 0; 
 }
 
+#service{
+    color:#000;
+}
+
 
 body {font-family:Arial, Helvetica, sans-serif;
     background-color: #7a644a;
