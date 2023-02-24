@@ -24,7 +24,7 @@ body {
   }
   #logo {
     display: block;
-    max-width: 100%;
+    max-width: 30%;
     margin-top: 10px;
     object-fit: contain;
   }
