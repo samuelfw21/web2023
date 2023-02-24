@@ -23,14 +23,14 @@ body {
     margin: 0;
   }
   .logo-container {
-    width: 110px;
+    width: 200px;
     height: auto;
   }
   
   
   #logo {
     display: block;
-    width: 110px;
+    width: 200px;
     height: auto;
     margin-top: 10px;
     object-fit: contain;
