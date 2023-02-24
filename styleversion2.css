@@ -71,6 +71,10 @@ body {
     text-align: center;
     margin: 20px;
   }
+  #services ul {
+    list-style: none;
+    padding: 0;
+  }
   
   #secondary {
     display: flex;
