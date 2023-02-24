@@ -1,0 +1,84 @@
+/* Set font family and size for the entire page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #ff6600;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the logo */
+  #title {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    margin: 0;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    display: flex;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Style the main section */
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  #primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #main_article {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  #main_fig {
+    margin: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #cccccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the address in the footer */
+  address {
+    font-style: normal;
+    margin-top: 20px;
+  }
+  
