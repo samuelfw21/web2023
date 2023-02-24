@@ -22,6 +22,12 @@ body {
     text-shadow: 2px 2px #000000;
     margin: 0;
   }
+  .logo-container {
+    width: 110px;
+    height: auto;
+  }
+  
+  
   #logo {
     display: block;
     width: 110px;
