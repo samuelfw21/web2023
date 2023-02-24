@@ -9,6 +9,7 @@ body {
     background-color: #E2c8A9;
     padding: 20px;
     display: flex;
+    flex-direction:column;
     justify-content: space-between;
     align-items: center;
   }
@@ -21,14 +22,11 @@ body {
     text-shadow: 2px 2px #000000;
     margin: 0;
   }
-  header img{
-    display:block;
+  #logo {
+    display: block;
     max-width: 100%;
     height: auto;
-    margin: auto;
-    position:absolute;
-    top:50;
-    transform: translateY(-50%);
+    margin-top: 10px;
   }
   
   /* Style the navigation menu */
