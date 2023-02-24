@@ -21,6 +21,11 @@ body {
     text-shadow: 2px 2px #000000;
     margin: 0;
   }
+  header img{
+    display:block;
+    max-width: 100%;
+    height: auto;
+  }
   
   /* Style the navigation menu */
   nav {
