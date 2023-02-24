@@ -105,6 +105,7 @@ body {
   
   #services-nav {
     background-color: white;
+    list-style: none ;
   }
   
   #services-nav a {
