@@ -35,7 +35,7 @@ body {
     margin-top: 10px;
     object-fit: contain;
   }
-  
+
   /* Style the navigation menu */
   nav {
     display: flex;
@@ -59,6 +59,11 @@ body {
     font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
+  }
+  #hoverfunc a:hover {
+    background-color: black;
+    color:white;
+    font-weight: bold;
   }
   
   
