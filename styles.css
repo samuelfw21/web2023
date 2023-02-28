@@ -65,6 +65,11 @@ body {
     color:white;
     font-weight: bold;
   }
+  #hoverfunc2 a:hover {
+    background-color: black;
+    color:white;
+    font-weight: boldd;
+  }
   
   
   /* Style the main section */
