@@ -70,7 +70,10 @@ body {
     color:white;
     font-weight: bold;
   }
-  
+  .image{
+    max-width: 100%;
+    height: auto;
+  }
   
   /* Style the main section */
   .wrapper {
