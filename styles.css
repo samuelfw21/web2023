@@ -71,14 +71,20 @@ body {
     font-weight: bold;
   }
   .firstimage{
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
     height:auto;
   }
   .image{
+    display: block;
+    margin: 0 auto;
     max-width: 70%;
     height: auto;
   }
   .lastimage{
+    display: block;
+    margin: 0 auto;
     max-width: 65%;
     height: auto;
   }
