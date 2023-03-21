@@ -74,6 +74,11 @@ body {
     max-width: 70%;
     height: auto;
   }
+  .lastimage{
+    max-width: 65%;
+    height: auto;
+  }
+
   
   /* Style the main section */
   .wrapper {
