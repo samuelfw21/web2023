@@ -170,6 +170,10 @@ body {
     box-sizing: border-box;
     text-align: center;
   }
+  nav#services-nav ul#hoverfunc li img {
+    max-width: 100%;
+    height: auto;
+  }
   .logo-container img {
     max-width: 100%;
     height: auto;
