@@ -157,10 +157,29 @@ body {
   justify-content: space-between;
 }
 
-/* Media query for mobile devices */
-@media (max-width: 767px) {
-  .services-container {
-    flex-direction: column;
-    align-items: center;
+@media screen and (max-width: 768px) {
+  nav#services-nav ul#hoverfunc {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  nav#services-nav ul#hoverfunc li {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .logo-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  header {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  footer {
+    padding: 10px;
+    box-sizing: border-box;
   }
 }
