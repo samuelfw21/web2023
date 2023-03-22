@@ -155,3 +155,19 @@ body {
     flex-direction: column;
   }
 } 
+#services li:nth-child(1) {
+  order: 1; /* Move the first item to the top */
+}
+
+#services li:nth-child(2) {
+  order: 4; /* Move the second item to the bottom */
+}
+
+#services li:nth-child(3) {
+  order: 2; /* Move the third item to second position */
+}
+
+#services li:nth-child(4) {
+  order: 3; /* Move the fourth item to third position */
+}
+
