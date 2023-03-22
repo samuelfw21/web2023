@@ -150,5 +150,8 @@ body {
     color: #000;
    
   }
-
- 
+@media (max-width: 767px){
+  #services {
+    flex-direction: column;
+  }
+} 
