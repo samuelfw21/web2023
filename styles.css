@@ -151,9 +151,9 @@ body {
    
   }
   #main-article p {
-    width: 100%;
-    margin: 0;
-   padding: 0;
+    
+    text-align: justify;
+    text-justify: inter-word; 
   }
 /* Add a responsive layout */
 /* Default layout for desktop */
