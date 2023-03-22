@@ -186,4 +186,9 @@ body {
     padding: 10px;
     box-sizing: border-box;
   }
+  #main_article {
+    width: 100%;
+    text-align: center;
+  }
+  
 }
