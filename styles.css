@@ -205,8 +205,8 @@ body {
     text-align: center;
     width: 90%;
   }  
-  .service-btn img {
+  #services-nav ul li img {
     max-width: 100%;
-    height: auto;
+    height:auto;
   }
 }
