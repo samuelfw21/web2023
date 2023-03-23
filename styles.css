@@ -205,8 +205,8 @@ body {
     text-align: center;
     width: 90%;
   }  
-  #services-nav ul li img {
-    max-width: 100%;
-    height:auto;
-  }
+.firstimage, .image, .lastimage {
+  max-width: 100%;
+  height: auto;
+}
 }
