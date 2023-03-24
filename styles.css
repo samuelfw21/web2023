@@ -206,7 +206,7 @@ body {
     width: 90%;
   }  
 .firstimage, .image, .lastimage {
-  width: 100%;
+  width: 75%;
   height: auto;
 }
 }
