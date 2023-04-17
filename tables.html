@@ -1,5 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, iniitial-scale=1.0">
+<title>Tables of my favorite players and their teams</title>
+<style>
+    caption{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 4px white;
+        padding: 5px;
+        background-color: black;
+        color: red;
+        border-radius: 25px;
+    }
+    thead,tfoot {
+        background-color: pink ;
+        color: black;
+        font-weight: bold;
+    }
+    th, td{
+        padding: 5px 10px;
+    }
+  .center{
+    text-align: center;
+  }  
+  .rowhover:hover{
+    background-color: blue;
+  }
+</style>
+</head>
+<table>
+<caption>Favorite Players and their sport</caption>
+<thead>
+    <tr>
+        <th colspan="4">Players and their team</th>
+    </tr>
+    <tr>
+        <th>Player name</th>
+        <th>Team</th>
+        <th>Position</th>
+        <th>Age</th>
+    </tr>
+</thead>
+<tbody>
+<tr class="rowhover">
+    <td>Lionel Messi</td>
+    <td class="center">Paris Saint Germain</td>
+    <td class="center">Right wing</td>
+    <td class="center">35</td>
+</tr>
+<tr class="rowhover">
+    <td>Neymar</td>
+    <td class="center">Paris Saint Germain</td>
+    <td class="center">Left wing</td>
+    <td class="center ">31</td>
+</tr>
+<tr>
+    <td>Ronaldo</td>
+    <td class="center">Al-Nassr</td>
+    <td class="center">Stricker</td>
+    <td class="center">38</td>
+</tr>
+<tr>
+    <td>Mbappe</td>
+    <td class="center">Paris Saint Germain</td>
+    <td class="center">Stricker</td>
+    <td class="center">24</td>
+</tr>
 
+</tbody>
+<tfoot>
+    <tr>
+        <td>Modric</td>
+        <td class="center">Real Madrid</td>
+        <td class="center">Center Mid</td>
+        <td class="center">37</td>
+    </tr>
+</tfoot>
 
-<head></head>
+</table>
+</html>
