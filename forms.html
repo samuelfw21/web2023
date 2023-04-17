@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>First form in html 5</title>
+
+<style>
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+  color: #1e90ff;
+}
+
+h2 {
+  font-size: 20px;
+  color: #1e90ff;
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+}
+
+input[type="submit"],
+button {
+  background-color: #1e90ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #0077b3;
+}
+
+input[type="radio"] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+#fruit {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+}
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+<h1> ENTER YOUR NAME, EMAIL, PHONE NUMBER AND INSTAGRAM BELOW</h1>
+
+<Form action="#" method="post">
+<label for="name"> Enter your name</label>
+<input type="text" name="bio" id="name" required>
+<br>
+<label for="Email"> Enter your Email </label>
+<input type="text" name="bio" id="Email" required>
+<br>
+<label for="Phone number"> Enter your phone number </label>
+<input type="text" name="bio" id="Phone number" required>
+<br>
+<label for="Instagram"> Enter your Instagram</label>
+<input type="text" name="bio" id="Instagram" required>
+<br>
+<input type="submit" value="Subscribe !">
+</Form>
+<form action="#" method="get" class="basicbutton">
+    <button type="button" name="button"> I am just button, please don't click.</button>
+
+</form>
+<h2> What is your favorite fruit in 2023 </h2>
+<form action="#" method="get">
+    <label for="fruit">Choose a fruit:</label>
+    <input type="text" id="fruit" name="fruit" list="fruits">
+    <datalist id="fruits">
+      <option value="Apple">
+      <option value="Banana">
+      <option value="Orange">
+      <option value="Pineapple">
+      <option value="Strawberry">
+    </datalist>
+</form>
+<form accept="#" method="get">
+    <label for="travel"> Where would you like to go for summer</label>
+    <select id="travel" name="continent">
+        <option value="">--Please choose an option--</option>
+        <option value="africa">Africa</option>
+        <option value="Antartica">Antartica</option>
+        <option value="Austrilia">Austrilia</option>
+        <option value="Europe">Europe</option>
+        <option value="North America">North America</option>
+        <option value="South America">South America</option>
+    </select>
+</form>
+
+
+
+
+
+<h2>What is your favaroite movie from 2023</h2>
+<form action="#" method="get">
+<fieldset>
+<legend>Choose your favorite</legend>
+<input type="radio" id="A Thousand and one" name="favmovie" value="A Thousand and one">
+        <label for="A Thousand and one">A Thousand and one</label><br>
+        
+<input type="radio" id="Joyland" name="favmovie" value="Joyland">
+
+        <label for="Joyland">Joyland</label><br>
+
+        <input type="radio" id="Creed III" name="favmovie" value="Creed III">
+        <label for="Creed III">Creed III</label>
+
+</fieldset>
+<h2> How do you feel about this form</h2>
+<form action="#" method="post">
+<label for="thoughts"></label>
+<textarea name="Ict" id="thoughts" rows="5" cols="100">Enter here:</textarea>
+
+</form>
+</body>
+</html>
