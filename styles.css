@@ -7,6 +7,7 @@ body {
   /* Style the header */
   header {
     background-color: #E2c8A9;
+    color:#ae742d;
     padding: 20px;
     display: flex;
     flex-direction:column;
@@ -66,8 +67,8 @@ body {
     font-weight: bold;
   }
   #hoverfunc2 a:hover {
-    background-color: black;
-    color:white;
+    background-color: rgb(255, 255, 255);
+    color:rgb(158, 16, 16);
     font-weight: bold;
   }
   .firstimage{
